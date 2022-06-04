@@ -1,0 +1,110 @@
+.wrapper {
+  display: block;
+
+}
+
+.wrapper main {
+  display: flex;
+  flex-direction: column;
+  max-width: 46rem;
+  margin: calc(0px - 1.6rem) auto;
+}
+
+.wrapper form {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+
+}
+
+.wrapper form button {
+  background: var(--dark-blue);
+  border-radius: 8px;
+  padding: 1rem;
+  color: var(--gray-100);
+  font-size: 0.875;
+  font-weight: 400;
+  cursor: pointer;
+
+  transition: background-color 0.2s ease-in-out;
+}
+
+.wrapper form button:hover {
+  background: var(--blue);
+  border-radius: 8px;
+}
+
+.todoList {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 1.6rem;
+  padding-top: 1.6rem;
+}
+
+.todoList>header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+
+}
+
+.todoList>header span {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: 8px;
+  color: var(--blue);
+  font-size: 0.875rem;
+  font-weight: 700;
+}
+
+.todoList>header span>span {
+  color: var(--gray-100);
+  font-size: 0.875rem;
+  background: var(--gray-400);
+  padding: 0.17rem 0.5rem;
+  border-radius: 10px;
+  font-size: 0.75rem;
+
+
+  font-weight: 700;
+
+  text-align: center;
+  font-family: 'Inter';
+}
+
+.noTodo {
+  border-top: 1px solid var(--gray-400);
+  border-radius: 8px;
+
+  padding: 4rem 1.5rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+  font-size: 0.875rem;
+  color: var(--gray-400);
+
+  font-weight: 400;
+  line-height: 140%;
+}
+
+.noTodo img {
+  width: 3.5rem;
+  height: 3.5rem;
+  margin-bottom: 1rem;
+}
+
+.noTodo strong {
+  color: var(--gray-300);
+}
+
+.noTodo span {
+  color: var(--gray-200);
+}
