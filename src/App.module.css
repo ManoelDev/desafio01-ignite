@@ -108,3 +108,9 @@
 .noTodo span {
   color: var(--gray-200);
 }
+
+@media screen and (max-width: 768px) {
+  .wrapper main {
+    padding: 0 1rem;
+  }
+}
