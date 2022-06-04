@@ -110,6 +110,10 @@
 }
 
 @media screen and (max-width: 768px) {
+  html {
+    font-size: 87.5%;
+  }
+
   .wrapper main {
     padding: 0 1rem;
   }
