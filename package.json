@@ -3,7 +3,8 @@
   "private": true,
   "version": "0.0.0",
   "scripts": {
-    "dev": "json-server db.json --port 3333 | vite",
+    "dev": "vite",
+    "dev:server": "json-server db.json --port 3333 | vite",
     "build": "tsc && vite build",
     "preview": "vite preview"
   },

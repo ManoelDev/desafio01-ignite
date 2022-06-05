@@ -9,7 +9,7 @@ axiosInstance.interceptors.response.use(
 
   (error) =>
     Promise.reject(
-      (error.response && error.response.data) || 'Something went wrong'
+      (error.response && error.response.data) || 'Algo deu errado.'
     )
 )
 

@@ -12,6 +12,8 @@
 
   padding: 1rem;
   gap: 1rem;
+
+  font-family: 'Inter', sans-serif;
 }
 
 .todo+.todo {
@@ -42,4 +44,8 @@
 
   transition: color 0.2s ease-in-out;
   line-height: 0;
+}
+
+.todo button:hover {
+  color: var(--danger);
 }

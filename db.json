@@ -1,19 +1,9 @@
 {
   "todos": [
     {
-      "id": 1,
-      "content": "4564556454",
-      "status": true
-    },
-    {
-      "id": 2,
-      "content": "4556454",
-      "status": true
-    },
-    {
-      "content": "dasdasdasdasjkhdhjkashjkdakjhsdjhasda sd asd a sdjhasda sd asd a sdjhasda sd asd a sdjhasda sd asd a sdjhasda sd asd a sdjhasda sd asd a sdjhasda sd asd a sdjhasda sd asd a sdjhasda sd asd a sdjhasda sd asd a ",
+      "content": "123",
       "status": false,
-      "id": 3
+      "id": 1
     }
   ]
 }

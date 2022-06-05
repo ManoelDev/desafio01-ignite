@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import { PlusCircle } from 'phosphor-react'
 
 import Clipboard from './assets/Clipboard.svg'
 
@@ -74,6 +75,7 @@ function App() {
             <Input placeholder='Adicione uma nova tarefa' onChange={(e) => setInputValue(e.currentTarget.value)} value={inputValue} />
             <button type='submit' >
               Criar
+              <PlusCircle size={16} />
             </button>
           </form>
           <div className={styles.todoList}>

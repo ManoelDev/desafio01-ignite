@@ -7,8 +7,12 @@
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  height: 24px;
-  width: 24px;
+
+  height: 16px;
+  width: 16px;
+
+  max-height: 16px;
+  max-width: 16px;
 }
 
 
@@ -24,8 +28,12 @@
   position: absolute;
   top: 0;
   left: 0;
-  height: 1.125rem;
-  width: 1.125rem;
+  height: 16px;
+  width: 16px;
+
+  max-height: 16px;
+  max-width: 16px;
+
   border: 1px solid var(--blue);
   border-radius: 50%;
 
@@ -61,11 +69,11 @@
 
 .container .checkmark:after {
   left: 4px;
-  top: 2px;
+  top: 1px;
   width: 4px;
   height: 8px;
   border: solid var(--gray-100);
-  border-width: 0 2px 2px 0;
+  border-width: 0 1px 1px 0;
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
 
